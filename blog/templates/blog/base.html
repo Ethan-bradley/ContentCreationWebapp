@@ -37,11 +37,11 @@
   top:0px;
 }
 .ei8_229_8_109 { 
-  width:10%;
-  height:10%;
+  width:100%;
+  height:100%;
   position:absolute;
   left:10px;
-  top:12px;
+  top:0px;
 }
 .ei8_229_8_109_21_65 { 
   width:10%;
@@ -266,18 +266,18 @@
   left:0%;
   top:0px;
 }
-.e69_519 { 
+.BerkeleySpace { 
   width:50%;
   height:30%;
   position:absolute;
   left:0%;
   top:20%;
 }
-.e40_231 { 
+.BerkeleySpaceContainer { 
   width:50%;
   height:20%;
   position:absolute;
-  left:0px;
+  left:0%;
   top:0px;
 }
 .e40_233 { 
@@ -291,7 +291,6 @@
   width:886px;
   height:144px;
   position:absolute;
-  left:0px;
   top:0px;
   font-family:Raleway;
   text-align:center;
@@ -310,7 +309,6 @@
   width:886px;
   height:144px;
   position:absolute;
-  left:0px;
   top:170%;
   font-family:Raleway;
   text-align:center;
@@ -321,7 +319,7 @@
   width:70%;
   height:20%;
   position:absolute;
-  left:10%;
+  left:20%;
   top:25%;
 }
 .69_227 { 
@@ -331,14 +329,14 @@
   width:578px;
   height:139px;
   position:absolute;
-  left:0px;
+  left:0%;
   top:0px;
 }
-.e40_254 { 
+.Creators { 
   width:578px;
   height:139px;
   position:absolute;
-  left:0px;
+  left:0%;
   top:0px;
 }
 .ei40_254_69_559 { 
@@ -419,7 +417,7 @@
   left:196.5px;
   top:283px;
 }
-.e12_210 { 
+.CONTENTBLACK { 
   background-color:rgba(64.00000378489494, 64.00000378489494, 64.00000378489494, 1);
   width:50%;
   height:100%;
@@ -683,25 +681,12 @@ width:126px;
 <div class=e12_206>
   <div class=e8_229>
     <a class=ei8_229_8_109 href="{% url 'blog-home' %}">
-      <div class=ei8_229_8_109_21_65><span  class="ei8_229_8_109_21_118">cc   </span>
-        <div class=ei8_229_8_109_21_36>
-          <div class=ei8_229_8_109_21_36_6_22><span  class="ei8_229_8_109_21_36_6_23"> </span>
-            <div class=ei8_229_8_109_21_36_6_24>
-              <div class=ei8_229_8_109_21_36_6_25>
-                <div class="ei8_229_8_109_21_36_6_26"></div>
-                <div class="ei8_229_8_109_21_36_6_27"></div>
-              </div>
-              <div class="ei8_229_8_109_21_36_6_28"></div>
-            </div>
-          </div>
-        </div><span  class="ei8_229_8_109_21_63">b
-</span>
-      </div>
+      <img class=e11_310 src="{% static 'blog/logo2.png' %}" alt="logo">
     </a>
     <div class=ei8_229_8_217>
       <div class=ei8_229_8_217_8_192><a  class="ei8_229_8_217_8_192_6_9" href="{% url 'blog-about' %}"> about </a></div>
-      <div class=ei8_229_8_217_8_195><span  class="ei8_229_8_217_8_195_6_9">Projects</span></div>
-      <div class=ei8_229_8_217_8_190><span  class="ei8_229_8_217_8_190_6_9">calendar</span></div>
+      <div class=ei8_229_8_217_8_195><a  class="ei8_229_8_217_8_195_6_9" href="{% url 'projects' %}">Projects</a></div>
+      <div class=ei8_229_8_217_8_190><a  class="ei8_229_8_217_8_190_6_9" href="{% url 'calendar' %}">calendar</a></div>
       <div class=ei8_229_8_217_8_215><span  class="ei8_229_8_217_8_215_6_9"></span></div>
     </div>
     <div class=ei8_229_8_218><span  class="ei8_229_8_218_8_199">Get in touch</span></div>
@@ -713,18 +698,18 @@ width:126px;
 
       
 <div class=e11_307>
-    <div class=e69_519>
-      <div class=e40_231><span  class="e40_233">BERKELEY'S SPACE</span>
+    <div class=BerkeleySpace>
+      <div class=BerkeleySpaceContainer><span  class="e40_233">BERKELEY'S SPACE</span>
         <span  class="e41_233">FOR</span></div>
       <div class=e69_225>
         <div class=e69_227>
-          <div class=e40_254><span  class="ei40_254_69_559">creators</span><span  class="ei40_254_69_563">CREATORS</span></div>
+          <div class=Creators><span  class="ei40_254_69_559">creators</span><span  class="ei40_254_69_563">CREATORS</span></div>
           <div class="e69_224"></div>
         </div>
       </div>
       <div class="e97_116"></div>
     </div>
-  <div class=e12_210>
+  <div class=CONTENTBLACK>
     <div class=e11_309>
        <img class=e11_310 src="{% static 'blog/logo.png' %}" alt="logo">
       <div class=ei11_309_12_6>
@@ -741,7 +726,7 @@ width:126px;
 
 <div id='footerframe' class='footerframe'>
 <div id='footer2' class='footer2'>
-  <img id='discord' class='discord-logo-circle1' src='https://www.svgrepo.com/show/331368/discord-v2.svg'/>
+  <a target="_blank" href="https://discord.gg/3YN7UE6W"><img id='discord' class='discord-logo-circle1' src='https://www.svgrepo.com/show/331368/discord-v2.svg'/></a>
 <div id='socials' class='socials'>
   
 <div id='#link' class='#link'>
@@ -749,9 +734,10 @@ width:126px;
 </div>
 </div>
 <img id='instagram-logo-circle1' class='instagram-logo-circle1' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png'/>
+</img>
 <div id='#link2' class='#link2'>
 
-</img>
+
 </div>
 </div>
 </div>
