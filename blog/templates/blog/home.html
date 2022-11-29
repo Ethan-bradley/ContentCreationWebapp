@@ -1,5 +1,19 @@
-{% extends "blog/base.html" %}
+ {% extends "blog/base.html" %}
+
+
 {% block content %}
+
+<head>
+  <style type="text/css">
+    
+
+
+
+</style>
+  
+</head>
+
+
     {% for post in posts %}
         <article class="media content-section">
           <img class="rounded-circle article-img" src="{{ post.author.profile.image.url }}">
@@ -35,3 +49,5 @@
 
     {% endif %}
 {% endblock content %}
+
+
